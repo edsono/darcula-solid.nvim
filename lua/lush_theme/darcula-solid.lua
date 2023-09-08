@@ -288,11 +288,11 @@ return lush(function(injected_functions)
 		DiffviewVertSplit({ bg = treebg }),
 
 		-- Telescope
-		-- TelescopeSelection({ CursorColumn }),
-		-- TelescopeSlectionCaret({ CursorColumn }),
-		-- TelescopeMultiSelection({ fg = comment }),
-		-- TelescopeNormal({ fg = comment }),
-		-- TelescopeMatching({ fg = orange }),
+		TelescopeSelection({ CursorColumn }),
+		TelescopeSlectionCaret({ CursorColumn }),
+		TelescopeMultiSelection({ fg = comment }),
+		TelescopeNormal({ fg = comment }),
+		TelescopeMatching({ fg = orange }),
 
 		-- git
 		SignAdd({ fg = green }),
